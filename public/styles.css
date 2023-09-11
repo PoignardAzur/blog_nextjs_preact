@@ -80,11 +80,3 @@ footer {
 footer div {
   display: grid;
 }
-
-footer .p1 {
-  grid-column: 1;
-}
-
-footer .p2 {
-  grid-column: 2;
-}

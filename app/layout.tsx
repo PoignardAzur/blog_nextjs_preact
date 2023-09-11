@@ -23,13 +23,13 @@ export default function RootLayout({
         <footer>
           <div className="inner">
             {/* TODO - Format better */}
-            <p className="p1">
+            <p style={{ gridColumn: 1 }}>
               Olivier Faure's blog<br />
               olivier.cj.faure@gmail.com<br />
               PoignardAzur<br />
               Distributed under CC-BY-4.0<br />
             </p>
-            <p className="p2">
+            <p style={{ gridColumn: 2 }}>
               Generated using Next.js.<br />
               Theme: TODO<br />
             </p>
