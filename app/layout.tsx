@@ -12,7 +12,29 @@ export default function RootLayout({
       </head>
 
       <body>
+        <header>
+          <a href="/" className="banner-link">
+            <h1>PoignardAzur</h1>
+            <p>Developer blog of Olivier Faure</p>
+          </a>
+        </header>
         {children}
+        <aside><h1>Sidebar</h1></aside>
+        <footer>
+          <div className="inner">
+            {/* TODO - Format better */}
+            <p className="p1">
+              Olivier Faure's blog<br />
+              olivier.cj.faure@gmail.com<br />
+              PoignardAzur<br />
+              Distributed under CC-BY-4.0<br />
+            </p>
+            <p className="p2">
+              Generated using Next.js.<br />
+              Theme: TODO<br />
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   )
