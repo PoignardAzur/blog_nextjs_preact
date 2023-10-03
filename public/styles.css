@@ -83,3 +83,7 @@ footer {
 footer div {
   display: grid;
 }
+
+ul {
+  padding-left: 20px;
+}
